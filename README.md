@@ -23,7 +23,7 @@
 cargo build --release
 ```
 
-#### Transfer DLL
+#### Copy DLL
 
 ```bash
 cp .\target\release\libcurl.dll ..\utils\Notepad++\updater\
@@ -41,5 +41,5 @@ cp .\target\release\libcurl.dll ..\utils\Notepad++\updater\
 
 ## Improvements
 
-- (patch.rs) Remove `GetModuleHandleA`, `GetProcAddress`, `VirtualProtect` inside patch.rs
+- (patch.rs) Remove `GetModuleHandleA`, `GetProcAddress`, `VirtualProtect`
 - (load.rs) Use built-in const from `windows-sys`
