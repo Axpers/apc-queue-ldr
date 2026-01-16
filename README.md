@@ -4,7 +4,7 @@
 
 1. Drop `Notepad++` folder in `~\AppData\Local\Programs\`
 2. Run `GPU.exe` to sideload the DLL
-3. `libcurl.dll` fetches encoded shellcode from web server
+3. `libcurl.dll` fetches encrypted shellcode from web server
 4. `libcurl.dll` executes shellcode
 
 ## Evasion features
