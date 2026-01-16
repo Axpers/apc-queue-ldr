@@ -12,7 +12,7 @@
 - PEB walk
 - ETW patch
 - Ntdll unhook
-- Stacked strings
+- Obfuscated strings
 - Local shellcode injection using `Nt*` APIs
 
 ## Usage
