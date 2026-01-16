@@ -13,7 +13,7 @@
 - ETW patch
 - Ntdll unhook
 - Obfuscated strings
-- Local shellcode injection using `Nt*` APIs
+- Local shellcode using `Nt*` APIs
 
 ## Usage
 
