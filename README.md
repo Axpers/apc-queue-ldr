@@ -37,3 +37,9 @@ cp .\target\release\libcurl.dll ..\utils\Notepad++\updater\
 
 ### Modify staging URL
 > Default `http://127.0.0.1/updater.enc`
+
+
+## Improvements
+
+- (patch.rs) Remove `GetModuleHandleA`, `GetProcAddress`, `VirtualProtect` inside patch.rs
+- (load.rs) Use built-in const from `windows-sys`
