@@ -19,6 +19,10 @@
 
 #### Compile DLL
 
+```bash
+cd libcurl-dll
+```
+
 ```rs
 cargo build --release
 ```
